@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>test</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+ </head>
+<body>
+  <button class="btn btn-success" data-target="[data-mycontent='showme']" data-toggle="collapse">
+      toggle my content
+  </button>  
+  <div data-mycontent="showme" class="collapse bg-secondary text-light m-1">
+    Photo #123. A purchased for <span class="badge badge-warning badge-pill">€23</span>
+  </div>
+  <div data-mycontent="showme" class="collapse bg-secondary text-light m-1">
+    Photo #456. A purchased for <span class="badge badge-warning badge-pill">€42</span>
+  </div>
+  <div data-mycontent="hideme" class="collapse bg-secondary text-light m-1">
+      Photo #123. A purchased for <span class="badge badge-warning badge-pill">€42</span>
+  </div>  
+</body>
+</html>

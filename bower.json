@@ -1,0 +1,33 @@
+{
+  "name": "MyPhoto",
+  "authors": [
+    "xtzeng <xt-zeng@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.1.0",
+    "bootpag": "^1.0.7",
+    "animate.css": "^3.5.2",
+    "font-awesome": "^5.0.12",
+    "ekko-lightbox": "^5.3.0",
+    "jquery.browser": "^0.1.0",
+    "jquery": "^3.3.1",
+    "datatables.net-bs4": "^3.2.2",
+    "popper.js": "1.12.9",
+    "datatables": "^1.10.16",
+    "typeahead.js": "^0.11.1",
+    "salvattore": "^1.0.9",
+    "tether": "^1.4.4",
+    "hover": "^2.3.1"
+  }
+}
