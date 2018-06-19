@@ -69,16 +69,8 @@
   background-color: #504747;
 }
 
-.navbar-myphoto .dropdown-menu > a:hover {
-  background-color: #504747;
-  color: gray;
-}
-
-.navbar-myphoto .dropdown-menu > a:focus {
-  background-color: #504747;
-  color: gray;
-}
-
+.navbar-myphoto .dropdown-menu > a:hover,
+.navbar-myphoto .dropdown-menu > a:focus,
 .navbar-myphoto .dropdown-menu > .active > a:focus {
   background-color: #504747;
   color: gray;
@@ -193,3 +185,7 @@ footer a {
 /* .myphoto-chevron-down.hvr-icon-bob {
   vertical-align: top;
 } */
+
+.carousel-item {
+  height: 400px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>test</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+ </head>
+<body>
+  <div class="accordion-parent" data-children=".accordion-child">
+    <div class="accordion-child">
+      <button class="btn btn-success" 
+        data-parent=".accordion-parent" 
+        data-target="[data-accordion='1']" 
+        data-toggle="collapse">
+        toggle my content 1
+      </button>  
+      <div data-accordion="1" class="collapse show bg-primary text-light m-1">
+        Photo #123. A purchased for <span class="badge badge-warning badge-pill">€23</span>
+      </div>
+    </div>
+    <div class="accordion-child">
+      <button class="btn btn-success" 
+        data-parent=".accordion-parent"
+        data-target="[data-accordion='2']" 
+        data-toggle="collapse">
+        toggle my content 2
+      </button>
+      <div data-accordion="2" class="collapse bg-secondary text-light m-1">
+        Photo #456. A purchased for <span class="badge badge-warning badge-pill">€42</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
