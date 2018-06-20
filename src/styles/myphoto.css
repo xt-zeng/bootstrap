@@ -189,3 +189,12 @@ footer a {
 .carousel-item {
   height: 400px;
 }
+
+/* background color to light-sky-blue */
+body {
+  background-color: lightskyblue;
+}
+
+#football {
+  color: turquoise;
+}
